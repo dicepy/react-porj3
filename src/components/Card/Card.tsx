@@ -15,6 +15,7 @@ const Card: React.FC<CardProps> = (props) => {
       <h3>{name}</h3>
       <p>Price: {price}</p>
       <p>Description: {description}</p>
+      <button>В корзину</button>
     </div>
   );
 };
